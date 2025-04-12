@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Homemade+Apple&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+ES:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Sacramento&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Homemade+Apple&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+ES:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Sacramento&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Homemade+Apple&family=Manrope:wght@200..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+ES:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <nav id="navbar" class="navbar navbar-expand-lg light-mode py-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <span class="grey-color" style="color: gray; margin-left: 20px; font-size: 30px;">&lt;</span>
+                <span class="logo-name"
+                    style="color: #3E3232 ; font-family: Sacramento, cursive; font-weight: 400; font-style: normal; font-size: 50px;">sri
+                    vyshnavi</span>
+                <span class="grey-color" style="color: grey; font-size: 30px;">/&gt;</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" id="toggle-mode">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active light-mode" aria-current="page" href="#home"
+                            style="font-family: Prompt, sans-serif; margin-right: 25px; font-size: 22px;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link light-mode" href="#skills"
+                            style="font-family: Prompt, sans-serif; margin-right: 25px; font-size: 22px;">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link light-mode" href="#projects"
+                            style="font-family: Prompt, sans-serif; margin-right: 25px; font-size: 22px;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link light-mode" href="#education"
+                            style="font-family: Prompt, sans-serif; margin-right: 25px; font-size: 22px;">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link light-mode" href="#contacts"
+                            style="font-family: Prompt, sans-serif; margin-right: 25px; font-size: 22px;">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <label class="theme-toggle-btn">
+                            <input type="checkbox" id="theme-toggle">
+                            <div class="slider"></div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="home">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="home">
+                    <h1 class="hello">
+                        Hello,<br>
+                        I'm <span class="typing-text"></span>
+                    </h1>
+                    <p class="about">
+                        I am driven by the desire to develop 
+                        <img 
+                          alt="🚀" 
+                          draggable="false"
+                          src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f680.png"
+                          class="emoji"
+                        >
+                        innovative software solutions that positively impact people's lives and address real-world challenges. My passion lies in leveraging technology to create efficient, user-friendly, and sustainable solutions that contribute to the betterment of society.
+                      </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/vyshnavi-12" class="github" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sri-vyshnavi-nakka-38136428b/" class="linkedin"
+                            target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/srivyshnavi.12/" class="instagram" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="mailto:srivyshnavinakka@gmail.com" class="mail"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <a href="#"><button class="resume-button" onclick="openResume()">Resume</button></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="home-svg">
+                    <img src="./pictures/undraw_web_development_0l6v.svg" alt="Web Development Illustration">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="skills-container">
+            <div class="skills-svg">
+                <img src="./pictures/undraw_real_time_sync_re_nky7.svg" alt="Skills Illustration">
+            </div>
+            <div class="skills-content">
+                <h4>Proficiencies</h4>
+                <div class="skill-icons">
+                    <div class="Skillsi">
+                        <div class="skilli" data-value="Python">
+                            <div class="progress" style="--percentage: 85%" data-percentage="85%">
+                                <i class="fab fa-python icon"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skilli" data-value="Java">
+                            <div class="progress" style="--percentage: 15%" data-percentage="15%">
+                                <i class="fab fa-java icon"></i>
+                            </div>
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <div class="skilli" data-value="C">
+                            <div class="progress" style="--percentage: 20%" data-percentage="20%">
+                                <i class="fab fa-c icon"></i>
+                            </div>
+                            <span class="skill-name">C</span>
+                        </div>
+                        <div class="skilli" data-value="SQL">
+                            <div class="progress" style="--percentage: 55%" data-percentage="55%">
+                                <i class="fas fa-database icon"></i>
+                            </div>
+                            <span class="skill-name">SQL</span>
+                        </div>
+                        <div class="skilli" data-value="html5">
+                            <div class="progress" style="--percentage: 85%" data-percentage="85%">
+                                <i class="fab fa-html5 icon"></i>
+                            </div>
+                            <span class="skill-name">HTML</span>
+                        </div>
+                        <div class="skilli" data-value="css3">
+                            <div class="progress" style="--percentage: 80%" data-percentage="80%">
+                                <i class="fab fa-css3-alt icon"></i>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                        </div>
+                        <div class="skilli" data-value="js">
+                            <div class="progress" style="--percentage: 60%" data-percentage="60%">
+                                <i class="fab fa-js icon"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skilli" data-value="react">
+                            <div class="progress" style="--percentage: 50%" data-percentage="50%">
+                                <i class="fab fa-react icon"></i> <!-- React -->
+                            </div>
+                            <span class="skill-name">React.js</span>
+                        </div>
+                        <div class="skilli" data-value="database">
+                            <div class="progress" style="--percentage: 40%" data-percentage="40%">
+                                <i class="fas fa-database icon"></i> <!-- MongoDB -->
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skilli" data-value="node">
+                            <div class="progress" style="--percentage: 40%" data-percentage="40%">
+                                <i class="fab fa-node-js icon"></i> <!-- Express.js and Node.js -->
+                            </div>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skilli" data-value="express">
+                            <div class="progress" style="--percentage: 40%" data-percentage="40%">
+                                <i class="fas fa-server icon"></i>
+                            </div>
+                            <span class="skill-name">Express.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="projects">
+        <h4>Projects</h4>
+        <div class="project-grid">
+            <a href="https://github.com/vyshnavi-12/my_portfolio" target="_blank" class="pro">
+                <div id="portfolio-project" class="project-card">
+                    <img src="./pictures/undraw_personal_website_re_c8dv.svg" alt="my-portfolio">
+                    <div class="project-content">
+                        <h5>My Portfolio</h5>
+                        <p>Explore my creative journey through projects that showcase my skills and passion, I'm excited
+                            to share my work with you 🎉 </p>
+                        <p>-<strong>Welcome to My Portfolio</strong></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/vyshnavi-12/event_management_system" target="_blank" class="pro">
+                <div id="event-project" class="project-card">
+                    <img src="./pictures/undraw_online_calendar_re_wk3t.svg" alt="event-management-system">
+                    <div class="project-content">
+                        <h5>Event Management System</h5>
+                        <p>Our event management system helps you organize and manage events with ease 📅 From
+                            invitations to venue management, we've got you covered!</p>
+                        <p>-<strong>Plan. Execute. Celebrate!</strong></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://chromewebstore.google.com/detail/nav-tabs/miaopimegamgoljgkjibajpcledkpkhi?authuser=0&hl=en-GB"
+                target="_blank" class="pro">
+                <div id="tabs-project" class="project-card">
+                    <img src="./pictures/undraw_tabs_tlxz.svg" alt="nav-tabs-extension">
+                    <div class="project-content">
+                        <h5>Nav-Tabs Chrome Extension</h5>
+                        <p>Effortlessly manage your browser tabs and windows with this powerful Chrome Extension 🖥️
+                            Organize, switch, and navigate through tabs seamlessly!</p>
+                        <p>-<strong>Tabs Made Easy! 🔄</strong></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/vyshnavi-12/NodeJS-Notes-App" target="_blank" class="pro">
+                <div id="notes-project" class="project-card">
+                    <img src="./pictures/undraw_notes_dyq8.svg" alt="notes-app-project">
+                    <div class="project-content">
+                        <h5>NodeJs-Notes App</h5>
+                        <p>Organize your thoughts and tasks with this feature-rich Notes App ✍️ Capture ideas, plan your
+                            day, and stay productive!</p>
+                        <p>-<strong>Keep Your Notes Handy Anytime! 📝</strong></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/vyshnavi-12/Smart-Safety-Gear-Detection-System" target="_blank" class="pro">
+                <div id="smart-gear-project" class="project-card">
+                    <img src="./pictures/undraw_security_0ubl.svg" alt="smart-safety-gear-project">
+                    <div class="project-content">
+                        <h5>Safety Gear Detection System</h5>
+                        <p>A real-time system that uses computer vision to detect safety gear like helmets and vests on construction workers. 🦺</p>
+                        <p>-<strong>AI-powered safety monitoring! 👷‍♂️</strong></p>
+                    </div>
+                </div>
+            </a>            
+            <a href="https://github.com/vyshnavi-12/YBI-Foundation-Internships/blob/main/Internship_Project_1.ipynb"
+                target="_blank" class="pro">
+                <div id="recommendation-project" class="project-card">
+                    <img src="./pictures/undraw_home_cinema_l7yl-2.svg" alt="movie-recommendation-system">
+                    <div class="project-content">
+                        <h5>Recommendation System</h5>
+                        <p>Get personalized movie recommendations based on your tastes 🍿 Discover new movies and TV
+                            shows you'll love!</p>
+                        <p>-<strong>Find Your Next Favorite Film! 🎥</strong></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="education" class="education">
+        <h4>Education</h4>
+        <div class="education-container">
+            <div class="education-timeline">
+                <!-- 2022-2026 -->
+                <div class="timeline-item">
+                    <div class="timeline-circle">
+                        <img src="./pictures/cbit.png" alt="CBIT">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering</h3>
+                        <span class="subtitle">Chaitanya Bharathi Institute of Technology</span>
+                        <p>- Pursuing Computer Science & Engineering (2022-2026)</p>
+                    </div>
+                </div>
+                
+                <!-- 2020-2022 -->
+                <div class="timeline-item">
+                    <div class="timeline-circle">
+                        <img src="./pictures/sri chaitanya colloge.png" alt="Sri Chaitanya College">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <span class="subtitle">Sri Chaitanya Junior College</span>
+                        <p>- Completed Intermediate Education (2020-2022)</p>
+                    </div>
+                </div>
+                
+                <!-- 2018 -->
+                <div class="timeline-item">
+                    <div class="timeline-circle">
+                        <img src="./pictures/sri chaitanya school.png" alt="Sri Chaitanya School">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Matriculation</h3>
+                        <span class="subtitle">Sri Chaitanya School</span>
+                        <p>- Completed School Education (2020)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education SVG Illustration -->
+            <div class="education-svg">
+                <img src="./pictures/undraw_education_f8ru.svg" alt="Education Illustration">
+            </div>
+        </div>
+    </div>
+
+    <div id="contacts" class="contacts">
+        <h4>Contact Me</h4>
+        <div class="contact-grid">
+            <div class="contact-svg">
+                <img src="./pictures/undraw_personal_email_re_4lx7-2.svg" alt="Contact illustration"
+                    class="contact-image">
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <form id="contact">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send 👍🏻</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Sri Vyshnavi</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+        <script src="contact.js"></script>
+</body>

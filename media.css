@@ -1,0 +1,451 @@
+/* Hide SVG illustrations when hamburger menu is visible */
+@media (max-width: 991px) {
+
+    .home-svg,
+    .skills-svg,
+    .education-svg,
+    .contact-svg {
+        display: none;
+    }
+}
+
+/* Home Section Responsiveness - Large Screens */
+@media (max-width: 1200px) {
+    #home {
+        padding: 80px 60px;
+    }
+
+    .hello {
+        font-size: 3.6rem;
+    }
+
+    .about {
+        font-size: 1.8rem;
+    }
+}
+
+/* Home Section Responsiveness - Medium Screens */
+@media (max-width: 992px) {
+    #home {
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    .home,
+    .home-svg {
+        max-width: 100%;
+    }
+
+    .home-svg {
+        margin-left: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .hello {
+        font-size: 3.2rem;
+    }
+
+    .about {
+        font-size: 1.6rem;
+    }
+}
+
+/* Home Section Responsiveness - Tablet Screens */
+@media (max-width: 768px) {
+    #home {
+        padding: 40px 30px;
+    }
+
+    .hello {
+        font-size: 2.8rem;
+    }
+
+    .about {
+        font-size: 1.4rem;
+    }
+
+    .social-icons a {
+        font-size: 30px;
+    }
+}
+
+/* Home Section Responsiveness - Mobile Screens */
+@media (max-width: 576px) {
+    #home {
+        padding: 30px 20px;
+    }
+
+    .hello {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 25px;
+    }
+}
+
+/* Skills Section Responsiveness - Large Screens */
+@media (max-width: 1200px) {
+    .skills-svg {
+        max-width: 650px;
+        margin-right: 40px;
+    }
+
+    .skills-content h4 {
+        font-size: 40px;
+    }
+
+    .Skillsi {
+        gap: 40px 30px;
+    }
+}
+
+/* Skills Section Responsiveness - Medium Screens */
+@media (max-width: 991px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-svg {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .skills-content {
+        width: 100%;
+    }
+
+    .skills-content h4 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* Skills Section Responsiveness - Small Screens */
+@media (max-width: 574px) {
+    .skills-container {
+        padding: 0 10px;
+    }
+
+    .skills-content h4 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .Skillsi {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+    }
+
+    .skilli {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Projects Section Responsiveness - Large Screens */
+@media (max-width: 1400px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Projects Section Responsiveness - Medium Screens */
+@media (max-width: 992px) {
+    .projects h4 {
+        font-size: 50px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        width: 90%;
+        max-width: 430px;
+    }
+}
+
+/* Projects Section Responsiveness - Mobile Screens */
+@media (max-width: 576px) {
+    .projects h4 {
+        font-size: 40px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .project-grid {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* Education Section Responsiveness - Large Screens */
+@media (max-width: 1200px) {
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-grid,
+    .education svg {
+        max-width: 650px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education svg {
+        margin-top: 40px;
+    }
+}
+
+/* Education Section Responsiveness - Tablet Screens */
+@media (max-width: 768px) {
+    .education {
+        padding: 0 15px;
+    }
+
+    .education h4 {
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .education-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .education-card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .education svg {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Education Section Responsiveness - Mobile Screens */
+@media (max-width: 480px) {
+    .education {
+        padding: 0 10px;
+    }
+
+    .education h4 {
+        font-size: 32px;
+    }
+
+    .education-card {
+        padding: 10px;
+    }
+
+    .education-card h5 {
+        font-size: 18px;
+    }
+
+    .education-card p {
+        font-size: 14px;
+    }
+}
+
+/* Contact Section Responsiveness - Large Screens */
+@media (max-width: 1200px) {
+    .contact-grid {
+        max-width: 90%;
+    }
+}
+
+/* Contact Section Responsiveness - Medium Screens */
+@media (max-width: 992px) {
+    .contacts h4 {
+        font-size: 50px;
+    }
+
+    .contact-grid {
+        flex-direction: column;
+    }
+
+    .contacts svg {
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .contact-grid .card {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
+/* Contact Section Responsiveness - Tablet Screens */
+@media (max-width: 768px) {
+    .contacts h4 {
+        font-size: 40px;
+    }
+}
+
+/* Contact Section Responsiveness - Mobile Screens */
+@media (max-width: 480px) {
+    .contacts h4 {
+        font-size: 30px;
+    }
+
+    .contacts svg,
+    .contact-grid .card {
+        width: 100%;
+    }
+}
+
+/* Footer Responsiveness - Tablet Screens */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* Contact Grid Adjustments - Medium Screens */
+@media (max-width: 992px) {
+    .contact-grid {
+        gap: 30px;
+    }
+}
+
+/* Contact Grid Adjustments - Tablet Screens */
+@media (max-width: 768px) {
+    .contact-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-svg,
+    .card {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+/* Contact Grid Adjustments - Mobile Screens */
+@media (max-width: 480px) {
+    .contact-grid {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .btn-primary {
+        width: 70%;
+    }
+}
+
+/* Education Container Spacing - Large Screens */
+@media (max-width: 1200px) {
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .education-grid,
+    .education-svg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .education-container {
+        flex-direction: column;
+    }
+
+    .education-svg {
+        margin-top: 40px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .education-svg img {
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .education h4 {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .timeline-circle {
+        width: 60px;
+        height: 60px;
+        left: -65px;
+    }
+
+    .timeline-content h3 {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .education-timeline {
+        padding-left: 50px;
+    }
+
+    .education-timeline:before {
+        left: 25px;
+    }
+
+    .timeline-circle {
+        width: 50px;
+        height: 50px;
+        left: -50px;
+    }
+
+    .timeline-content h3 {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+}
