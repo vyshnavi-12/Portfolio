@@ -165,12 +165,12 @@ body.dark-mode .navbar-toggler .navbar-toggler-icon {
 .home {
     flex: 1;
     max-width: 600px;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 60px;
 }
 
 .hello {
-    font-size: 3.0rem;
+    font-size: 2.8rem;
     font-family: "Prompt", sans-serif;
     font-weight: 500;
     margin-bottom: 20px;
