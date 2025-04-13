@@ -36,7 +36,7 @@ My_Portfolio/
 ├── styles.css
 ├── scripts.js
 ├── media.css
-└──images/
+└── pictures/
     ├── cbit.png
     ├── sri chaitanya college.png
     └── sri chaitanya school.png
