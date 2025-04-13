@@ -45,25 +45,9 @@ My_Portfolio/
     └── [other SVG files]
 ```
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/vyshnavi-12/My_Portfolio.git
-```
-
-2. Open the project:
-```bash
-cd My_Portfolio
-```
-
-3. Run the website:
-- Open `index.html` in your preferred browser
-- Or use a local development server
-
 ## 📱 Live Demo
 
-Visit the live website: [My Portfolio](https://vyshnavi-12.github.io/My_Portfolio/)
+Visit the live website: [My Portfolio](https://vyshnavi-12.github.io/Portfolio/)
 
 ## ⚡ Quick Start for Development
 
