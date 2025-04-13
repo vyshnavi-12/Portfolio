@@ -160,7 +160,7 @@ document.querySelector('.theme-toggle-btn input').addEventListener('change', fun
 updateNavbarStyles();
 
 const typingText = document.querySelector('.typing-text');
-const phrases = ['Frontend Developer', 'Backend Developer', 'Full Stack Developer', 'Python Programmer'];
+const phrases = ['Python Programmer', 'Frontend Developer', 'Backend Developer', 'Full Stack Developer'];
 let phraseIndex = 0;
 let characterIndex = 0;
 let isDeleting = false;
